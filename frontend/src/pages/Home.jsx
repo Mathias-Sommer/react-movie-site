@@ -5,11 +5,8 @@ function Home() {
   const [searchQuery, setSearchQuery] = useState("");
 
   const movies = [
-    { id: 1, title: "Terminator", release_date: "2020", url: "" },
+    { id: 1, title: "Terminator", release_date: "2020" },
     { id: 2, title: "test", release_date: "2020" },
-    { id: 3, title: "terminator2", release_date: "2020" },
-    { id: 4, title: "film4", release_date: "2020" },
-    { id: 5, title: "Film5", release_date: "2020" },
     { id: 3, title: "terminator2", release_date: "2020" },
   ];
 
